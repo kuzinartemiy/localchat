@@ -1,0 +1,56 @@
+.message {
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	padding: 2px;
+}
+
+.message_selected {
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.message__text {
+	color: #fff;
+	border-radius: 5px;
+	
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 14px;
+	text-align: left;
+	font-weight: 400;
+	font-family: Arial, sans-serif;
+}
+
+.message__text_type_other {
+	background-color:#001329;
+	border: 1px solid #2F83E4;
+}
+
+.message__text_type_mine {
+	background-color: #002047;
+	border: none;
+}
+
+.message__caption {
+	display: flex;
+	gap: 10px;
+	justify-content: space-between;
+}
+
+.message__captionItem {
+	font-size: 10px;
+	color: #CBCBCB;
+}
+
+.message__quote {
+	text-align: left;
+	font-size: 12px;
+	color: #CBCBCB;
+	padding: 4px;
+	border: 1px solid #CBCBCB;
+	border-radius: 5px;
+}
+
+.message__quoteAuthor {
+	font-size: 10px;
+}

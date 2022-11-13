@@ -1,0 +1,55 @@
+.messageForm {
+	grid-area: form;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2px;
+	background-color: #001329;
+	box-sizing: border-box;
+	padding: 16px;
+	position: relative;
+}
+
+.messageForm__input {
+	width: 100%;
+	background-color: #001329;
+	border-radius: 5px;
+	border: 1px solid #CBCBCB;
+	box-sizing: border-box;
+	padding: 10px;
+	color: #CBCBCB;
+}
+
+.messageForm__sendBtn {
+	width: 30px;
+	height: 30px;
+	background-image: url(./btn-icon.svg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 2px;
+	border: none;
+	transition: .3s;
+}
+
+.messageForm__emojiBtn {
+	width: 30px;
+	height: 30px;
+	background-image: url(./smile-icon.svg);
+	background-color: transparent;
+	background-position: center;
+	background-size: contain;
+	border-radius: 2px;
+	border: none;
+	transition: .3s;
+}
+
+.messageForm__sendBtn:hover,
+.messageForm__emojiBtn:hover {
+	opacity: .8;
+}
+
+.messageForm__emojiPicker {
+	position: absolute;
+	right: -360px;
+	bottom: 0px;
+}

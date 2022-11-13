@@ -1,0 +1,31 @@
+.chatHeader {
+	grid-area: header;
+	background-color: #001329;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items: center;
+	padding: 16px;
+	border-radius: 2px 2px 0 0;
+	border-bottom: 1px solid #CBCBCB;
+}
+
+.chatHeader p {
+	font-size: 14px;
+	font-weight: 500;
+	font-family: Arial, sans-serif;
+	color: #fff;
+}
+
+.chatHeader__logoutBtn {
+	background-color: #2F83E4;
+	border-radius: 2px;
+	border: none;
+	box-sizing: border-box;
+	padding: 8px;
+	transition: .3s;
+}
+
+.chatHeader__logoutBtn:hover {
+	opacity: .8;
+}
